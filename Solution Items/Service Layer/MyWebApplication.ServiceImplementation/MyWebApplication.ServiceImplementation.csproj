@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>f41c8369-5a8c-4efd-aed1-ca24f87e4244</ProjectGuid>
+    <ProjectGuid>{F41C8369-5A8C-4EFD-AED1-CA24F87E4244}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyWebApplication.ServiceImplementation</RootNamespace>
@@ -30,24 +30,65 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Ninject.Web.Common.3.2.3.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="MyWebApplicationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business Layer\MyWebApplication.BusinessEntities\MyWebApplication.BusinessEntities.csproj">
+      <Project>{310e7a26-1279-4a47-9f78-21f2dd800925}</Project>
+      <Name>MyWebApplication.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business Layer\MyWebApplication.BusinessLogic.Interfaces\MyWebApplication.BusinessLogic.Interfaces.csproj">
+      <Project>{817d8f84-bea5-4d50-b3fa-19770f4c1b2e}</Project>
+      <Name>MyWebApplication.BusinessLogic.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Business Layer\MyWebApplication.BusinessLogic\MyWebApplication.BusinessLogic.csproj">
+      <Project>{0cef2877-eaa2-4a18-bb63-5e1c0b69a8d9}</Project>
+      <Name>MyWebApplication.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\MyWebApplication.Common\MyWebApplication.Common.csproj">
+      <Project>{98aa9b83-2e74-41ca-8851-f69536e5afa4}</Project>
+      <Name>MyWebApplication.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyWebApplication.DataContracts\MyWebApplication.DataContracts.csproj">
+      <Project>{0da64ff7-e171-478e-b9f0-a8b9cef57922}</Project>
+      <Name>MyWebApplication.DataContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyWebApplication.MessageContracts\MyWebApplication.MessageContracts.csproj">
+      <Project>{0ccf94f2-1b3c-4043-9771-7506136a43f3}</Project>
+      <Name>MyWebApplication.MessageContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyWebApplication.ServiceContracts\MyWebApplication.ServiceContracts.csproj">
+      <Project>{cff8ccfc-e5f4-4eaf-aaf3-2b1b718868e3}</Project>
+      <Name>MyWebApplication.ServiceContracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -57,5 +98,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

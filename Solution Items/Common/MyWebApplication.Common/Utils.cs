@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyWebApplication.DataContracts
+namespace MyWebApplication.Common
 {
-    public class Class1
+    public class Utils
     {
     }
 }

@@ -35,6 +35,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Ninject.Web.Common.3.2.3.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -50,8 +66,27 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="BusinessLogicUT\WhenUsingPersonHandler.cs" />
+    <Compile Include="MyWebApplicationUT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Solution Items\Business Layer\MyWebApplication.BusinessEntities\MyWebApplication.BusinessEntities.csproj">
+      <Project>{310E7A26-1279-4A47-9F78-21F2DD800925}</Project>
+      <Name>MyWebApplication.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\MyWebApplication.BusinessLogic.Interfaces.csproj">
+      <Project>{817d8f84-bea5-4d50-b3fa-19770f4c1b2e}</Project>
+      <Name>MyWebApplication.BusinessLogic.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Solution Items\Composition\MyWebApplication.Composition\MyWebApplication.Composition.csproj">
+      <Project>{195292CB-0145-4962-A090-4BFF060E26DA}</Project>
+      <Name>MyWebApplication.Composition</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.0.2.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\AutoMapper.6.0.2\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -38,11 +41,18 @@
       <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Web.Common, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Ninject.Web.Common.3.2.3.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Oracle.DataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64" />
     <Reference Include="Oracle.DataAccess.EntityFramework, Version=6.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -71,7 +81,7 @@
     <Compile Include="BusinessEntityContact.cs">
       <DependentUpon>EntityFrameworkModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="PersonDbContext.cs" />
     <Compile Include="ContactType.cs">
       <DependentUpon>EntityFrameworkModel.tt</DependentUpon>
     </Compile>
@@ -357,6 +367,20 @@
       <DependentUpon>EntityFrameworkModel.edmx</DependentUpon>
       <LastGenOutput>EntityFrameworkModel.cs</LastGenOutput>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business Layer\MyWebApplication.BusinessEntities\MyWebApplication.BusinessEntities.csproj">
+      <Project>{310E7A26-1279-4A47-9F78-21F2DD800925}</Project>
+      <Name>MyWebApplication.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\MyWebApplication.Common\MyWebApplication.Common.csproj">
+      <Project>{98aa9b83-2e74-41ca-8851-f69536e5afa4}</Project>
+      <Name>MyWebApplication.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyWebApplication.DataAccess.Interfaces\MyWebApplication.DataAccess.Interfaces.csproj">
+      <Project>{d45b0330-ccf9-4d03-b74a-32b048c84a6b}</Project>
+      <Name>MyWebApplication.DataAccess.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

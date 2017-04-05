@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MyWebApplication" targetNamespace="http://tempuri.org/MyWebApplication.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/MyWebApplication.xsd" xmlns:mstns="http://tempuri.org/MyWebApplication.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="PersonData" id="F5467215-31D7-4FBC-A98E-0C0E6F7A2450">
+    <xs:sequence>
+      <xs:element name="PersonKey" type="xs:int" nillable="false" minOccurs="0"/>
+      <xs:element name="PersonType" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="PersonStyle" type="xs:boolean" nillable="false" minOccurs="0"/>
+      <xs:element name="Title" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="FirstName" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="MiddleName" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="LastName" type="xs:string" nillable="false"  minOccurs="0"/>
+      <xs:element name="Suffix" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="EmailPromotion" type="xs:int" nillable="false" minOccurs="0"/>
+      <xs:element name="AdditionalContactInfo" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="Demographics" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="RowGuid" type="xs:string" nillable="false" minOccurs="0"/>
+      <xs:element name="ModifiedDate" type="xs:dateTime" nillable="true"  minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
