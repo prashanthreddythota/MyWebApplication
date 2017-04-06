@@ -1,0 +1,18 @@
+C:\MyWork\MyWebApplication\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.DataAccess.Interfaces.dll
+C:\MyWork\MyWebApplication\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.DataAccess.Interfaces.pdb
+C:\MyWork\MyWebApplication\MyWebApplication.DataAccess.Interfaces\obj\Debug\MyWebApplication.DataAccess.Interfaces.csprojResolveAssemblyReference.cache
+C:\MyWork\MyWebApplication\MyWebApplication.DataAccess.Interfaces\obj\Debug\MyWebApplication.DataAccess.Interfaces.dll
+C:\MyWork\MyWebApplication\MyWebApplication.DataAccess.Interfaces\obj\Debug\MyWebApplication.DataAccess.Interfaces.pdb
+C:\MyWork\MyWebApplication\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.dll
+C:\MyWork\MyWebApplication\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.pdb
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.DataAccess.Interfaces.dll
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.DataAccess.Interfaces.pdb
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.dll
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.pdb
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\obj\Debug\MyWebApplication.DataAccess.Interfaces.csprojResolveAssemblyReference.cache
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\obj\Debug\MyWebApplication.DataAccess.Interfaces.dll
+C:\MyWork\MyWebApplication\Solution Items\Data Layer\MyWebApplication.DataAccess.Interfaces\obj\Debug\MyWebApplication.DataAccess.Interfaces.pdb

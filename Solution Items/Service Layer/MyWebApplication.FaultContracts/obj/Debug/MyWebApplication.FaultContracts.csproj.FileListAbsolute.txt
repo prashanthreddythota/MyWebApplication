@@ -1,0 +1,14 @@
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\MyWebApplication.FaultContracts.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\MyWebApplication.FaultContracts.pdb
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\obj\Debug\MyWebApplication.FaultContracts.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\obj\Debug\MyWebApplication.FaultContracts.pdb
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\MyWebApplication.FaultContracts.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\MyWebApplication.FaultContracts.pdb
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\AutoMapper.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\AutoMapper.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\obj\Debug\MyWebApplication.FaultContracts.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.FaultContracts\obj\Debug\MyWebApplication.FaultContracts.pdb

@@ -52,6 +52,9 @@
       <HintPath>..\..\..\packages\Ninject.Web.Common.3.2.3.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -69,10 +72,12 @@
     <Compile Include="BusinessLogicUT\WhenUsingPersonHandler.cs" />
     <Compile Include="MyWebApplicationUT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WSProxies\MyWebApplicationProxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="WSProxies\GenerateProxies.bat" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Solution Items\Business Layer\MyWebApplication.BusinessEntities\MyWebApplication.BusinessEntities.csproj">
@@ -88,6 +93,7 @@
       <Name>MyWebApplication.Composition</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

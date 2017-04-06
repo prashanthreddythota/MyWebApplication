@@ -1,0 +1,17 @@
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\MyWebApplication.MessageContracts.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\MyWebApplication.MessageContracts.pdb
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\obj\Debug\MyWebApplication.MessageContracts.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\obj\Debug\MyWebApplication.MessageContracts.pdb
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\MyWebApplication.MessageContracts.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\MyWebApplication.MessageContracts.pdb
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\AutoMapper.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\MyWebApplication.DataContracts.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\MyWebApplication.DataContracts.pdb
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\AutoMapper.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\obj\Debug\MyWebApplication.MessageContracts.csprojResolveAssemblyReference.cache
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\obj\Debug\MyWebApplication.MessageContracts.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.MessageContracts\obj\Debug\MyWebApplication.MessageContracts.pdb

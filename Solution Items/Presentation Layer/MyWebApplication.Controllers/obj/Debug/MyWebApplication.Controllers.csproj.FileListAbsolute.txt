@@ -1,0 +1,14 @@
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\MyWebApplication.Controllers.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\MyWebApplication.Controllers.pdb
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\obj\Debug\MyWebApplication.Controllers.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\obj\Debug\MyWebApplication.Controllers.pdb
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\MyWebApplication.Controllers.dll
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\MyWebApplication.Controllers.pdb
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\AutoMapper.dll
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\AutoMapper.xml
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\obj\Debug\MyWebApplication.Controllers.dll
+C:\MyWork\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Controllers\obj\Debug\MyWebApplication.Controllers.pdb

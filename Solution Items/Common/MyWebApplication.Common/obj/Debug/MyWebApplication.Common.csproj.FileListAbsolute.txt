@@ -1,0 +1,10 @@
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\bin\Debug\MyWebApplication.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\bin\Debug\MyWebApplication.Common.pdb
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\bin\Debug\AutoMapper.dll
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\obj\Debug\MyWebApplication.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\obj\Debug\MyWebApplication.Common.pdb
+C:\MyWork\MyWebApplication\Solution Items\Common\MyWebApplication.Common\obj\Debug\MyWebApplication.Common.csprojResolveAssemblyReference.cache

@@ -1,0 +1,20 @@
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessLogic.Interfaces.dll
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessLogic.Interfaces.pdb
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\AutoMapper.dll
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\AutoMapper.xml
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\obj\Debug\MyWebApplication.BusinessLogic.Interfaces.csprojResolveAssemblyReference.cache
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\obj\Debug\MyWebApplication.BusinessLogic.Interfaces.dll
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\obj\Debug\MyWebApplication.BusinessLogic.Interfaces.pdb
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.dll
+C:\MyWork\MyWebApplication\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.pdb
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessLogic.Interfaces.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessLogic.Interfaces.pdb
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\MyWebApplication.BusinessEntities.pdb
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\obj\Debug\MyWebApplication.BusinessLogic.Interfaces.csprojResolveAssemblyReference.cache
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\obj\Debug\MyWebApplication.BusinessLogic.Interfaces.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessLogic.Interfaces\obj\Debug\MyWebApplication.BusinessLogic.Interfaces.pdb

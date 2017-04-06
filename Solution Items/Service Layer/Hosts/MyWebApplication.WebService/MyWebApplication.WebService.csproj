@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
-  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -84,7 +82,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MyWebApplication.svc" />
+    <Content Include="Global.asax" />
+    <Content Include="MyWebApplicationService.svc" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -99,7 +98,36 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Composition\MyWebApplication.Composition\MyWebApplication.Composition.csproj">
+      <Project>{195292CB-0145-4962-A090-4BFF060E26DA}</Project>
+      <Name>MyWebApplication.Composition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MyWebApplication.DataContracts\MyWebApplication.DataContracts.csproj">
+      <Project>{0da64ff7-e171-478e-b9f0-a8b9cef57922}</Project>
+      <Name>MyWebApplication.DataContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MyWebApplication.FaultContracts\MyWebApplication.FaultContracts.csproj">
+      <Project>{d5c49c29-04a5-474e-9aef-5afae272365d}</Project>
+      <Name>MyWebApplication.FaultContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MyWebApplication.MessageContracts\MyWebApplication.MessageContracts.csproj">
+      <Project>{0ccf94f2-1b3c-4043-9771-7506136a43f3}</Project>
+      <Name>MyWebApplication.MessageContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MyWebApplication.ServiceContracts\MyWebApplication.ServiceContracts.csproj">
+      <Project>{cff8ccfc-e5f4-4eaf-aaf3-2b1b718868e3}</Project>
+      <Name>MyWebApplication.ServiceContracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\MyWebApplication.ServiceImplementation\MyWebApplication.ServiceImplementation.csproj">
+      <Project>{f41c8369-5a8c-4efd-aed1-ca24f87e4244}</Project>
+      <Name>MyWebApplication.ServiceImplementation</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

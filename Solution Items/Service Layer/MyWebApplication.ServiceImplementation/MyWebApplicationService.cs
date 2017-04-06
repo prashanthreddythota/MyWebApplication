@@ -10,10 +10,15 @@ using System.Linq;
 using System.ServiceModel.Activation;
 using System.Text;
 using System.Threading.Tasks;
+using WCF = System.ServiceModel;
 
 namespace MyWebApplication.ServiceImplementation
 {
     [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+    [WCF.ServiceBehaviorAttribute(Name = "MyWebApplicationService",
+        Namespace = "http://www.ode.state.oh.us/DashbaordAdmin",
+        InstanceContextMode = WCF.InstanceContextMode.PerSession,
+        ConcurrencyMode = WCF.ConcurrencyMode.Single)]
     public class MyWebApplicationService : IMyWebApplicationService
     {
         private readonly IPersonHandler _personHandler;

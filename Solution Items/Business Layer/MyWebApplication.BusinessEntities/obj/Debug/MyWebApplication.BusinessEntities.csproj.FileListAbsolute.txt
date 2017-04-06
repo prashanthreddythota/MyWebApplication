@@ -1,0 +1,15 @@
+C:\WorkSpace\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\MyWebApplication.BusinessEntities.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\MyWebApplication.BusinessEntities.pdb
+C:\WorkSpace\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\obj\Debug\MyWebApplication.BusinessEntities.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\obj\Debug\MyWebApplication.BusinessEntities.pdb
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\MyWebApplication.BusinessEntities.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\MyWebApplication.BusinessEntities.pdb
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\AutoMapper.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\AutoMapper.xml
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\obj\Debug\MyWebApplication.BusinessEntities.csprojResolveAssemblyReference.cache
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\obj\Debug\MyWebApplication.BusinessEntities.dll
+C:\MyWork\MyWebApplication\Solution Items\Business Layer\MyWebApplication.BusinessEntities\obj\Debug\MyWebApplication.BusinessEntities.pdb

@@ -1,0 +1,15 @@
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\MyWebApplication.DataContracts.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\MyWebApplication.DataContracts.pdb
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\obj\Debug\MyWebApplication.DataContracts.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\obj\Debug\MyWebApplication.DataContracts.pdb
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\MyWebApplication.DataContracts.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\MyWebApplication.DataContracts.pdb
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\AutoMapper.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\Ninject.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\Ninject.Web.Common.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\AutoMapper.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\Ninject.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\bin\Debug\Ninject.Web.Common.xml
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\obj\Debug\MyWebApplication.DataContracts.csprojResolveAssemblyReference.cache
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\obj\Debug\MyWebApplication.DataContracts.dll
+C:\MyWork\MyWebApplication\Solution Items\Service Layer\MyWebApplication.DataContracts\obj\Debug\MyWebApplication.DataContracts.pdb

@@ -1,0 +1,6 @@
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Web\bin\MyWebApplication.Web.dll.config
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Web\bin\MyWebApplication.Web.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Web\bin\MyWebApplication.Web.pdb
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Web\obj\Release\MyWebApplication.Web.csprojResolveAssemblyReference.cache
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Web\obj\Release\MyWebApplication.Web.dll
+C:\WorkSpace\MyWebApplication\Solution Items\Presentation Layer\MyWebApplication.Web\obj\Release\MyWebApplication.Web.pdb
